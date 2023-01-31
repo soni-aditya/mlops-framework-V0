@@ -10,12 +10,15 @@ reading manifest file 'src.egg-info/SOURCES.txt'
 writing manifest file 'src.egg-info/SOURCES.txt'
 running check
 creating src-0.0.1
+creating src-0.0.1/prediction_service
 creating src-0.0.1/src
 creating src-0.0.1/src.egg-info
-creating src-0.0.1/tests
+creating src-0.0.1/test
 copying files to src-0.0.1...
 copying README.md -> src-0.0.1
 copying setup.py -> src-0.0.1
+copying prediction_service/__init__.py -> src-0.0.1/prediction_service
+copying prediction_service/prediction.py -> src-0.0.1/prediction_service
 copying src/__init__.py -> src-0.0.1/src
 copying src/get_data.py -> src-0.0.1/src
 copying src/load_data.py -> src-0.0.1/src
@@ -25,22 +28,25 @@ copying src.egg-info/PKG-INFO -> src-0.0.1/src.egg-info
 copying src.egg-info/SOURCES.txt -> src-0.0.1/src.egg-info
 copying src.egg-info/dependency_links.txt -> src-0.0.1/src.egg-info
 copying src.egg-info/top_level.txt -> src-0.0.1/src.egg-info
-copying tests/__init__.py -> src-0.0.1/tests
-copying tests/conftest.py -> src-0.0.1/tests
-copying tests/test_config.py -> src-0.0.1/tests
+copying test/__init__.py -> src-0.0.1/test
+copying test/conftest.py -> src-0.0.1/test
+copying test/test_config.py -> src-0.0.1/test
 Writing src-0.0.1/setup.cfg
 creating '.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
 adding 'src-0.0.1'
-adding 'src-0.0.1/tests'
+adding 'src-0.0.1/test'
+adding 'src-0.0.1/prediction_service'
 adding 'src-0.0.1/src.egg-info'
 adding 'src-0.0.1/src'
 adding 'src-0.0.1/PKG-INFO'
 adding 'src-0.0.1/README.md'
 adding 'src-0.0.1/setup.py'
 adding 'src-0.0.1/setup.cfg'
-adding 'src-0.0.1/tests/conftest.py'
-adding 'src-0.0.1/tests/__init__.py'
-adding 'src-0.0.1/tests/test_config.py'
+adding 'src-0.0.1/test/conftest.py'
+adding 'src-0.0.1/test/__init__.py'
+adding 'src-0.0.1/test/test_config.py'
+adding 'src-0.0.1/prediction_service/__init__.py'
+adding 'src-0.0.1/prediction_service/prediction.py'
 adding 'src-0.0.1/src.egg-info/PKG-INFO'
 adding 'src-0.0.1/src.egg-info/SOURCES.txt'
 adding 'src-0.0.1/src.egg-info/top_level.txt'

@@ -6,7 +6,7 @@ pandas
 pytest
 tox
 flake8
-flask 
+flask
 gunicorn
 PyYAML
 joblib==1.2.0

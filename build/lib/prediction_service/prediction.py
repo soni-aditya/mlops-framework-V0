@@ -1,7 +1,6 @@
 import yaml
 import os
 import json
-import sklearn
 import joblib
 import numpy as np
 

@@ -2,3 +2,5 @@ mamba
 dvc
 dvc-gdrive
 sklearn
+pytest
+tox
